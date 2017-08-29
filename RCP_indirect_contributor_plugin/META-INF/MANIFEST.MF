@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RCP_indirect_contributor_plugin
+Bundle-SymbolicName: RCP_indirect_contributor_plugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: RCP_model_fragment_Case_2_menu_plugin;bundle-version="1.0.0",
+ org.eclipse.swt;bundle-version="3.106.0"
+Import-Package: org.eclipse.jface.dialogs

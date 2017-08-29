@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="rcp_main_plugin.extension_points.one_level_ep" name="One Level EP" schema="schema/rcp_main_plugin.extension_points.one_level_ep.exsd"/>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="RCP_main_plugin"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/RCP_main_plugin/css/default.css">
+         </property>
+         <property
+               name="appName"
+               value="RCP_main_plugin">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

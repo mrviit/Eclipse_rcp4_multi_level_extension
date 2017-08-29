@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="rcp_main_plugin.extension_points.one_level_ep">
+      <new_element
+            new_attribute="rcp_one_level_plugin.extensions.OneLevelExtensionGreeter">
+      </new_element>
+   </extension>
+
+</plugin>

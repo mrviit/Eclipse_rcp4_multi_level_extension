@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension-point id="RCP_model_fragment_Case_2_menu_plugin.extension_points.multilevel_ep" name="Multi Level EP" schema="schema/RCP_model_fragment_Case_2_menu_plugin.extension_points.multilevel_ep.exsd"/>
+
+   <extension
+         id="RCP_model_fragment_Case_2_menu_plugin.fragment"
+         point="org.eclipse.e4.workbench.model">
+      <fragment
+            uri="fragment_case_2_cmd.e4xmi">
+      </fragment>
+      <fragment
+            uri="fragment_case_2_handler.e4xmi">
+      </fragment>
+      <fragment
+            uri="fragment_case_2_menu.e4xmi">
+      </fragment>
+   </extension>
+
+</plugin>

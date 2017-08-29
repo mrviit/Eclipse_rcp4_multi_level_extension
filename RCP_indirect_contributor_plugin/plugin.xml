@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="RCP_model_fragment_Case_2_menu_plugin.RCP_model_fragment_Case_2_menu_plugin.extension_points.multilevel_ep">
+      <new_element
+            new_attribute="RCP_indirect_contributor_plugin.extensions.IndirectGreeter">
+      </new_element>
+   </extension>
+
+</plugin>

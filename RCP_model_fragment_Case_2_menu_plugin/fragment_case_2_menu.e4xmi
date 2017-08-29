@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_OikWgIyQEeedzqFYD0Fwcw">
+  <imports xsi:type="commands:Command" xmi:id="_OikWgYyQEeedzqFYD0Fwcw" elementId="rcp_main_plugin.command.multilevelextensioncmd" commandName="MultiLevelExtensionCmd"/>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_OikWgoyQEeedzqFYD0Fwcw" featurename="children" parentElementId="rcp_main_plugin.menu.0">
+    <elements xsi:type="menu:Menu" xmi:id="_OikWg4yQEeedzqFYD0Fwcw" elementId="rcp_main_plugin.menu.case2" label="Case 2">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_OikWhIyQEeedzqFYD0Fwcw" elementId="rcp_main_plugin.handledmenuitem.multilevelextension" label="Multi Level Extension" command="_OikWgYyQEeedzqFYD0Fwcw"/>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
