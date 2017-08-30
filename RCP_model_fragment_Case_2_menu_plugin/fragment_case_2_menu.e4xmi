@@ -4,6 +4,9 @@
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_OikWgoyQEeedzqFYD0Fwcw" featurename="children" parentElementId="rcp_main_plugin.menu.0">
     <elements xsi:type="menu:Menu" xmi:id="_OikWg4yQEeedzqFYD0Fwcw" elementId="rcp_main_plugin.menu.case2" label="Case 2">
       <children xsi:type="menu:HandledMenuItem" xmi:id="_OikWhIyQEeedzqFYD0Fwcw" elementId="rcp_main_plugin.handledmenuitem.multilevelextension" label="Multi Level Extension" command="_OikWgYyQEeedzqFYD0Fwcw"/>
+      <children xsi:type="menu:Menu" xmi:id="_0bYC0IydEeeU1KYTYBuGLw" elementId="rcp_model_fragment_case_2_menu_plugin.menu.intermenu" label="Inter Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_10TkoIydEeeU1KYTYBuGLw" elementId="rcp_model_fragment_case_2_menu_plugin.handledmenuitem.aitem" label="A item"/>
+      </children>
     </elements>
   </fragments>
 </fragment:ModelFragments>
